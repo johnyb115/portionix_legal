@@ -59,13 +59,14 @@
 
     <p>
       This Privacy Policy describes how the application <strong>Portionix</strong> handles your data.
-      In short: your settings, history and freezer stay on your phone. Portionix has no account and no analytics,
-      and the developer never receives any of your data.
+      In short: your settings, history and freezer stay on your phone. Portionix has no account and no analytics.
+      Only if you choose to share your freezer with another phone is the freezer stored online, as described
+      under <a href="#sharing">Freezer sharing</a>.
     </p>
 
     <h2>What the app stores</h2>
     <p>
-      To work, Portionix saves the following on your device only:
+      To work, Portionix saves the following on your device:
     </p>
     <ul>
       <li>the names you give the two people (optional; “Person 1” and “Person 2” by default),</li>
@@ -75,6 +76,29 @@
     </ul>
     <p>
       Portionix itself does not collect any other personal information, location or contacts.
+    </p>
+
+    <h2 id="sharing">Freezer sharing (optional)</h2>
+    <p>
+      You can share your freezer with other phones, for example your partner’s, using “Share this freezer”
+      and “Join with a code” in the Freezer tab. Nothing is sent anywhere until you do. When you share or join,
+      the following is stored in Google Firebase (Cloud Firestore), on servers in the European Union
+      (Frankfurt, Germany):
+    </p>
+    <ul>
+      <li>the contents of your freezer: meal names, the date they were frozen, what is in the boxes,
+        portions and grams, and the names of the people the portions are for, as you entered them;</li>
+      <li>a random identifier that Firebase Authentication creates for your phone (anonymous sign-in).
+        It is not linked to your name, email address, Google account or phone number;</li>
+      <li>one-time codes for joining, which expire after 24 hours.</li>
+    </ul>
+    <p>
+      This data is used only to show the same freezer on the phones that share it. Only phones that joined
+      with a code can read or change it. Your settings and calculation history are never shared.
+      While handling these requests, Google also receives technical data such as your IP address.
+      Google processes the data on the developer’s behalf under the
+      <a href="https://firebase.google.com/terms/data-processing-terms">Firebase data processing terms</a>;
+      see also <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.
     </p>
 
     <h2>Advertising and purchases</h2>
@@ -89,7 +113,8 @@
       the developer receives no payment details.
     </p>
     <p>
-      Portionix does not sell or rent your data, and shares nothing with third parties other than what is described here.
+      Portionix does not sell or rent your data, and shares nothing with third parties other than what is described
+      here (including <a href="#sharing">Freezer sharing</a>).
     </p>
 
     <h2>Backups</h2>
@@ -117,6 +142,19 @@
       You can delete history entries and freezer items in the app, and reset all settings in Settings.
       Uninstalling the app or clearing its storage in your phone’s settings removes all of its data from the device.
     </p>
+    <p>
+      <strong>Shared freezer.</strong> Tap “Stop sharing” in the Freezer tab: your phone leaves the shared
+      freezer and keeps its own copy. When the last phone stops sharing, the shared freezer is deleted from
+      the server. Uninstalling the app does not delete a shared freezer, so stop sharing first, or ask for
+      deletion at the contact below (mention a meal in the freezer and the date it was frozen, so it can be found).
+    </p>
+
+    <h2>Your rights</h2>
+    <p>
+      Under the GDPR you can ask for access to, correction of or deletion of your data stored for freezer sharing,
+      and you can lodge a complaint with a data protection authority (in the Czech Republic:
+      <a href="https://uoou.gov.cz">ÚOOÚ</a>).
+    </p>
 
     <h2>Children</h2>
     <p>
@@ -135,7 +173,7 @@
     </p>
 
     <footer>
-      Last updated: September 29, 2026
+      Last updated: October 20, 2026
     </footer>
   </div>
 
